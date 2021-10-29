@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.bakaaless'
+version '1.0-SNAPSHOT'
+
+jar {
+    manifest {
+         attributes 'Main-Class': 'fr.bakaaless.tetravex.TetravexSolver'
+    }
+}
+
+[compileJava, compileTestJava]*.options*.encoding = "UTF-8"
