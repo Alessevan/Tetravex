@@ -94,8 +94,8 @@ public class TetravexSolver {
                     result[index++] = (byte) sorted[x][y].getBottom();
                 }
             }
-            for (final byte b : result)
-                System.out.print(b);
+
+            System.out.write(result);
 
 //            final File output = new File(args[0] + ".output");
 //            output.createNewFile();
